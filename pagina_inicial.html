@@ -31,24 +31,63 @@
 
     <div class="tab-content">
         <div id="jogo" class="tab-pane fade in active" align="center">
-            <div id="pagina_do_personagem">
-                <table>
-                    <tdbody>
-                        <tr>
-                            <td colspan="3" align="center">Jogo da Velha História</td>
-                        </tr>
-                        <tr>
-                            <td align="center"><img src="imagens/soldado.PNG" class="img-responsive img-rounded" ></td>
-                            <td align="center"><img src="imagens/começar.png" class="img-responsive img-rounded"></td>
-                            <td align="center"><img src="imagens/cangaço.PNG" class="img-responsive img-rounded" ></td>
-                        </tr>
-                    </tdbody>
-                </table>
-            </div>
-            <div id="area_do_jogo">
-
+            <div class="container">
+                    <div id="pagina_do_personagem" class="row">
+                        <div class="col-md-12">
+                            <table>
+                                <tdbody>
+                                    <tr>
+                                        <td colspan="3" align="center"><h3>Jogo da Velha História</h3></td>
+                                    </tr>
+                                    <tr>
+                                        <td align="center">
+                                            <img src="imagens/soldado.PNG" class="img-responsive img-rounded" >
+                                            <h4>Soldadinho do Araripe</h4>
+                                        </td>
+                                        <td align="center">
+                                            <img id="iniciar_jogo" src="imagens/começar.png" class="img-responsive img-rounded">
+                                        </td>
+                                        <td align="center">
+                                            <img src="imagens/cangaço.PNG" class="img-responsive img-rounded" >
+                                            <h4>Cangaceiro</h4>
+                                        </td>
+                                    </tr>
+                                </tdbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div id="area_do_jogo" class="row" style="display:none;">
+                        <div class="col-md-4">
+                            <img src="imagens/soldado.PNG" class="img-responsive img-rounded" >
+                            <h4>Soldadinho do Araripe</h4>
+                        </div>
+                        <div class="col-md-4">
+                            <table class="table table-bordered">
+                                <tr>
+                                    <td><div style="width: 100px; height: 100px;">1</div></td>
+                                    <td><div style="width: 100px; height: 100px;">2</div></td>
+                                    <td><div style="width: 100px; height: 100px;">3</div></td>
+                                </tr>
+                                <tr>
+                                    <td><div style="width: 100px; height: 100px;">4</div></td>
+                                    <td><div style="width: 100px; height: 100px;">5</div></td>
+                                    <td><div style="width: 100px; height: 100px;">6</div></td>
+                                </tr>
+                                <tr>
+                                    <td><div style="width: 100px; height: 100px;">7</div></td>
+                                    <td><div style="width: 100px; height: 100px;">8</div></td>
+                                    <td><div style="width: 100px; height: 100px;">9</div></td>
+                                </tr>
+                            </table>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="imagens/cangaço.PNG" class="img-responsive img-rounded" >
+                        <h4>Cangaceiro</h4>
+                    </div>
+                </div>
             </div>
         </div>
+
         <div id="sobre" class="tab-pane fade">
 
         </div>
