@@ -20,6 +20,10 @@ $(document).ready(function () {
     $('#iniciar_jogo').click(function () {
         $('#pagina_do_personagem').hide();
         $('#area_do_jogo').show();
+        $('#area_do_jogo_voltar').show();
+    });
+    $('#voltar').click(function () {
+        location.reload();
     });
     $('.campo').click(function () {
         var id_campo = this.id;
