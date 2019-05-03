@@ -8,16 +8,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="jogo.js"></script>
-    <style>
-        #operacao{
-            position: absolute;
-            color: blue;
-            margin: 5px 10px;
-        }
-        #tela{
-            text-align: center;
-        }
-    </style>
 </head>
 <body>
 
@@ -40,24 +30,49 @@
                                         <td colspan="3" align="center"><h3>Jogo da Velha História</h3></td>
                                     </tr>
                                     <tr>
-                                        <td align="center">
-                                            <img src="imagens/soldado.PNG" class="img-responsive img-rounded" >
-                                            <h4>Soldadinho do Araripe</h4>
+                                        <td id="personagem_1" align="center">
+                                            <img src="imagens/escolha_aqui.PNG" class="img-responsive img-rounded" >
+                                            <h4>Escolha sua Ave!</h4>
+                                            <input id="01" value="nada" style="display:none;"/>
                                         </td>
                                         <td align="center">
                                             <img id="iniciar_jogo" src="imagens/começar.png" class="img-responsive img-rounded">
                                         </td>
-                                        <td align="center">
-                                            <img src="imagens/cangaço.PNG" class="img-responsive img-rounded" >
-                                            <h4>Cangaceiro</h4>
+                                        <td id="personagem_2" align="center">
+                                            <img  src="imagens/escolha_aqui_2.PNG" class="img-responsive img-rounded" >
+                                            <h4>Escolha seu Cangaceiro!</h4>
+                                            <input id="02" value="nada" style="display:none;"/>
                                         </td>
                                     </tr>
                                 </tdbody>
                             </table>
                         </div>
                     </div>
+                    <div id="pagina_do_personagem_2" class="row">
+                        <table>
+                            <tdbody>
+                                <tr>
+                                    <td colspan="4" align="center"><h4>Clique no Personagem!</h4></td>
+                                </tr>
+                                <tr>
+                                    <td align="center">
+                                        <img id="e_1" src="imagens/escolha_soldado.PNG" class="img-responsive img-rounded" >
+                                    </td>
+                                    <td align="center">
+                                        <img id="e_2" src="imagens/escolha_jacucaca.png" class="img-responsive img-rounded">
+                                    </td>
+                                    <td align="center">
+                                        <img id="e_3" src="imagens/escolha_mariabonita.png" class="img-responsive img-rounded" >
+                                    </td>
+                                    <td align="center">
+                                        <img id="e_4" src="imagens/escolha_cangaço.PNG" class="img-responsive img-rounded" >
+                                    </td>
+                                </tr>
+                            </tdbody>
+                        </table>
+                    </div>
                     <div id="area_do_jogo" class="row" style="display:none;">
-                        <div class="col-md-4">
+                        <div id="j_1" class="col-md-4">
                             <img src="imagens/soldado.PNG" class="img-responsive img-rounded" >
                             <h4>Soldadinho do Araripe</h4>
                         </div>
@@ -80,7 +95,7 @@
                                 </tr>
                             </table>
                     </div>
-                    <div class="col-md-4">
+                    <div id="j_2" class="col-md-4">
                         <img src="imagens/cangaço.PNG" class="img-responsive img-rounded" >
                         <h4>Cangaceiro</h4>
                     </div>
@@ -94,6 +109,31 @@
                         </tr>
                     </table>
                 </div>
+                <div id="recompensa" class="row" style="display:none;">
+                    <br/>
+                    <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#ModalLongoExemplo">
+                        Ver recompensa!
+                    </button>
+
+                    <div class="modal fade" id="ModalLongoExemplo" tabindex="-1" role="dialog" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="TituloModalLongoExemplo">...</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div id="modalconteudo" class="modal-body">
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -102,6 +142,7 @@
         </div>
     </div>
     </div>
+
 </div>
 
 </body>
