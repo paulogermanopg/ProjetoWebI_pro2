@@ -8,14 +8,24 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="jogo.js"></script>
+    <style>
+        .jumbotron{
+            background-image: url('imagens/back.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        a{
+            color: black;!important;
+        }
+    </style>
 </head>
-<body>
+<body class="jumbotron">
 
 <div class="container" align="center">
-    <h2 class="text-primary"> Projeto de Web I</h2>
+    <h2 class= "text-body"> Jogo da Velha História</h2>
     <div class="col-md-12" align="center">
     <ul class="nav nav-tabs">
-        <li><a class="active" data-toggle="tab" href="#jogo">Jogo ainda decidir</a></li>
+        <li><a class="active" data-toggle="tab" href="#jogo">Jogo</a></li>
         <li><a data-toggle="tab" href="#sobre">Sobre</a></li>
     </ul>
 
@@ -27,7 +37,7 @@
                             <table>
                                 <tdbody>
                                     <tr>
-                                        <td colspan="3" align="center"><h3>Jogo da Velha História</h3></td>
+                                        <td colspan="3" align="center"><h3>Arre égua, por que ainda não tá jogando, ein?!</h3></td>
                                     </tr>
                                     <tr>
                                         <td id="personagem_1" align="center">
@@ -138,6 +148,42 @@
         </div>
 
         <div id="sobre" class="tab-pane fade">
+            <div class="row">
+                <h2>O que é O Jogo da Velha História</h2>
+                <p>O Jogo da Velha História é um jogo produzido para a disciplina de PROJETOS DE SISTEMAS WEB I. Ele tem como intúito entregar ao usuário um jogo semelhante ao famoso jogo da velha, contudo, seu conteúdo vai bem mais além da meradiversão atribuida aos cliques; ele, em sua essência, mostra através de seu visual e recompensa de vitória, a cultura da região do Cariri. </p>
+            </div>
+            <div class="row">
+                <h2>Como jogar?</h2>
+                <div class="col-md-6">
+                    <img src="imagens/ex_1.JPG" class="img-responsive img-rounded" >
+                </div>
+                <div class="col-md-6">
+                    <p>Você deve clicar em uma das aves que enfrentará um dos cangaceiros! São duas aves para escolher, e ao lado, para o segundo jogador, são mais dois riveis arretados!</p>
+                    <p>Após clicar na ave que você quer e o segundo jogador escolher seu cangaceiro, é só clicar em INICIAR! Vamos ao Jogo!</p>
+                </div>
+            </div>
+            <div class="row">
+                <h2>Hora da batalha</h2>
+                <div class="col-md-6">
+                    <img src="imagens/ex_2.JPG" class="img-responsive img-rounded" >
+                </div>
+                <div class="col-md-6">
+                    <p>O primeiro clique será dos pássaros, o segundo dos cangaceiros.</p>
+                    <p>Como o tradicional Jogo da Velha, este funciona do mesmo jeito. Forme três símbolos alinhados na vertical, horizintal ou diagonal!</p>
+                    <p>Para reiniciar o jogo basta clicar em VOLTAR.</p>
+                </div>
+            </div>
+            <div class="row">
+                <h2>Recompensa</h2>
+                <div class="col-md-6">
+                    <img src="imagens/ex_3.JPG" class="img-responsive img-rounded" >
+                </div>
+                <div class="col-md-6">
+                    <p>O jogador que vencer o Jogo habilitará um botão verde em baixo do tabuleiro.</p>
+                    <p>A recompensa por ter vencido com o Personagem escolhido é o conhecimento sobre o mesmo.</p>
+                    <p>Quanto mais partidas com Personagens diferentes, mais história terá!</p>
+                </div>
+            </div>
 
         </div>
     </div>
