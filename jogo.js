@@ -127,12 +127,12 @@ $(document).ready(function () {
                     "                                    Foi descoberto em 1996 na Chapada do Araripe, Região Nordeste do Brasil. Segundos os seus descobridores, o soldadinho-do-araripe somente é encontrado nos municípios de Barbalha, Araripe, Crato e Missão Velha, todos no Ceará.[carece de fontes]\n" +
                     "\n" +
                     "                                        Também é conhecido como galo-da-mata e lavadeira-da-mata.</p><br/><img src=\"imagens/re_soldado.PNG\" class=\"img-responsive img-rounded\" >");
-                alert("PARABÉNS SOLDADO, CLIQUE NO BOTÃO VERDE ABAIXO!");
+         
             }
             if ($('#01').val() == "ja"){
                 $('#TituloModalLongoExemplo').html("<h3>Jacucaca</h3>");
                 $('#modalconteudo').html("<p>Penelope jacucaca também conhecida como jacu-verdadeiro, jacu do Nordeste ou simplesmente jacucaca é uma espécie de ave da família Cracidae. Pertence ao grupo dos jacus. Apenas pode ser encontrada no seguinte país: Brasil. É endêmica da caatinga, encontrada no interior da região Nordeste (Ceará, Bahia e Paraíba), e também achada em zonas de transição entre a caatinga e o cerrado. Os últimos registros da espécie evidenciam sua ocorrência em áreas de carrasco, cerrado e de matas secas. Os seus habitats naturais são: florestas secas tropicais ou subtropicais e florestas subtropicais ou tropicais úmidas de baixa altitude. Também ocorria nos estados do Maranhão, Pernambuco, Piauí, Alagoas, e Minas Gerais, estando hoje extinta na maioria deles. Está ameaçada de extinção, sendo classificada como vulnerável, por perda de habitat e caça predatória.</p><br/><img src=\"imagens/re_ja.PNG\" class=\"img-responsive img-rounded\" >");
-                alert("PARABÉNS PÁSSARO, CLIQUE NO BOTÃO VERDE ABAIXO!");
+
             }
             $('#recompensa').show();
 
@@ -142,7 +142,7 @@ $(document).ready(function () {
             if ($('#02').val() == "mariab"){
                 $('#TituloModalLongoExemplo').html("<h3>Maria Bonita</h3>");
                 $('#modalconteudo').html("<p>A baiana Maria Gomes de Oliveira era chamada desde a infância de Maria de Déa, em referência a sua mãe. Nem a família nem o bando de Lampião a tratavam por Maria Bonita, apelido que só se difundiu após sua morte. Há algumas versões sobre a origem desse nome. Uma delas diz que se tratou de invenção dos repórteres dos jornais do Rio de Janeiro, possivelmente inspirados no filme Maria Bonita, lançado em 1937 e baseado na obra de mesmo nome de Afrânio Peixoto, de 1921. Outra, que teria sido dado por soldados que se impressionaram com a beleza da cangaceira quando ela foi morta em 28 de julho de 1938, aos 27 anos.</p><br/><img src=\"imagens/re_ma.png\" class=\"img-responsive img-rounded\" >");
-                alert("PARABÉNS GUERREIRA, CLIQUE NO BOTÃO VERDE ABAIXO!");
+
             }
             if ($('#02').val() == "lampi"){
                 $('#TituloModalLongoExemplo').html("<h3>Lampião</h3>");
@@ -159,8 +159,8 @@ $(document).ready(function () {
                     "Em 1930 se junta afetivamente a Maria Bonita na Bahia. No mesmo ano, aparece no jornal The New York Times. Em 1936, seu cotidiano na caatinga é fotografado e filmado por Benjamin Abrahão Botto.\n" +
                     "\n" +
                     "Durante quase 20 anos, Lampião viajou com seu bando de cangaceiros, todos a cavalo e em trajes de couro, chapéus, sandálias, casacos, cintos de munição e calças para protegê-los dos arbustos com espinhos típicos da vegetação caatinga. Para proteger o \"capitão\" (como Lampião era chamado) e realizar ataques a fazendas e municípios, todos usavam sempre um poder bélico potente. Como não existiam contrabandos de armas para se adquirir, as mesmas eram, em sua maioria, roubadas da polícia e de unidades paramilitares. A espingarda Mauser e uma grande variedade de pistolas semiautomáticas e revólveres também eram adquiridos durante confrontos. A arma mais utilizada era o rifle Winchester. O bando chamava os integrantes das volantes de \"macacos\" - uma alusão ao modo como os soldados fugiam quando avistavam o grupo de Lampião: \"pulando\".</p><br/><img src=\"imagens/re_lambi.png\" class=\"img-responsive img-rounded\" >");
-                alert("PARABÉNS GUERREIRO, CLIQUE NO BOTÃO VERDE ABAIXO!");
             }
+            alert("PARABÉNS SANGUE FORTE NORDESTINO, CLIQUE NO BOTÃO VERDE ABAIXO!");
             $('#recompensa').show();
         }
     }
