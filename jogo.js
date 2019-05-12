@@ -127,7 +127,7 @@ $(document).ready(function () {
                     "                                    Foi descoberto em 1996 na Chapada do Araripe, Região Nordeste do Brasil. Segundos os seus descobridores, o soldadinho-do-araripe somente é encontrado nos municípios de Barbalha, Araripe, Crato e Missão Velha, todos no Ceará.[carece de fontes]\n" +
                     "\n" +
                     "                                        Também é conhecido como galo-da-mata e lavadeira-da-mata.</p><br/><img src=\"imagens/re_soldado.PNG\" class=\"img-responsive img-rounded\" >");
-         
+
             }
             if ($('#01').val() == "ja"){
                 $('#TituloModalLongoExemplo').html("<h3>Jacucaca</h3>");
@@ -135,6 +135,7 @@ $(document).ready(function () {
 
             }
             $('#recompensa').show();
+            alert("PARABÉNS AVE DO MEU SERTÃO, CLIQUE NO BOTÃO VERDE ABAIXO!");
 
         }
         if(soma == 3){
@@ -160,8 +161,9 @@ $(document).ready(function () {
                     "\n" +
                     "Durante quase 20 anos, Lampião viajou com seu bando de cangaceiros, todos a cavalo e em trajes de couro, chapéus, sandálias, casacos, cintos de munição e calças para protegê-los dos arbustos com espinhos típicos da vegetação caatinga. Para proteger o \"capitão\" (como Lampião era chamado) e realizar ataques a fazendas e municípios, todos usavam sempre um poder bélico potente. Como não existiam contrabandos de armas para se adquirir, as mesmas eram, em sua maioria, roubadas da polícia e de unidades paramilitares. A espingarda Mauser e uma grande variedade de pistolas semiautomáticas e revólveres também eram adquiridos durante confrontos. A arma mais utilizada era o rifle Winchester. O bando chamava os integrantes das volantes de \"macacos\" - uma alusão ao modo como os soldados fugiam quando avistavam o grupo de Lampião: \"pulando\".</p><br/><img src=\"imagens/re_lambi.png\" class=\"img-responsive img-rounded\" >");
             }
-            alert("PARABÉNS SANGUE FORTE NORDESTINO, CLIQUE NO BOTÃO VERDE ABAIXO!");
+
             $('#recompensa').show();
+            alert("PARABÉNS SANGUE FORTE NORDESTINO, CLIQUE NO BOTÃO VERDE ABAIXO!");
         }
     }
 
