@@ -61,10 +61,10 @@ $(document).ready(function () {
         var pontos = 0;
 
         if ((rodada % 2) == 0){
-            simbolo = 'url(imagens/Ocangaço.png)';
+            simbolo = 'url(imagens/Ocangaço.PNG)';
             pontos = 1;
         }else {
-            simbolo = 'url(imagens/xpassaro.png)';
+            simbolo = 'url(imagens/xpassaro.PNG)';
             pontos = -1;
         }
 
